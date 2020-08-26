@@ -8,16 +8,21 @@ names = ['Liam','Emma','Noah','Olivia','William','Ava','James','Isabella','Logan
 
 #Your code go here:
 def my_function(numb):
-    for i in range (0,len(numb)):
-        re=numb[i].find("am")
-        if re!=-1 :
+        dar= 'am' in numb
+        if dar==True:
             return numb
+        
 
 
 
 resulting_names = list(filter(my_function, names))
 
 print(resulting_names)
-  
+
+
+    """for i in range (len(numb)): filter va de una en una entonces.
+        re=numb[i].find("am")
+        if re!=-1 :
+            return numb"""
   
    

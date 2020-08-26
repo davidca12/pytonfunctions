@@ -12,9 +12,9 @@ tasks = [
 
 
 #Your code go here:
-def my_function(numb):
+def my_function(numb): #numb == task [0]
     
-       if numb['done']==True:
+       if numb['done']:
            return numb
        
         
