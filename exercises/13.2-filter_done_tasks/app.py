@@ -12,4 +12,13 @@ tasks = [
 
 
 #Your code go here:
+def my_function(numb):
+    
+       if numb['done']==True:
+           return numb
+       
+        
 
+resulting_names = list(filter(my_function, tasks))
+
+print(resulting_names)
